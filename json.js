@@ -4,4 +4,4 @@ const object = {
     city: "New York"
 }
 
-console.log(object)
+console.log(object.name)
