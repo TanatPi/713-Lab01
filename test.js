@@ -1,9 +1,11 @@
-let x =20
-if (x > 10) {
-  console.log('x is more than 10')
-} else if (x < 5){
-    console.log('x is less than 5')
+let x = 51
+if (x > 80) {
+  console.log('GPA: A')
+} else if (x > 60){
+    console.log('GPA: B')
+} else if (x > 50){
+    console.log('GPA: C')
 }
 else {
-  console.log('x is between 5 and 10')
+  console.log('GPA: F')
 }
