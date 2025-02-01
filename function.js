@@ -13,9 +13,12 @@ function sum(list){
 let test = [10,20,30]
 console.log(sum(test))
 
-const multiply = (x,y) => { return x * y }
+const multiply = (x, y) => { return x * y }
+console.log(multiply(5, 10))
+module.exports = {
+    multiply
+};
 
-console.log(multiply(5, 10)) 
 
 const greater = (x,y) => { 
     if (x > y) {
