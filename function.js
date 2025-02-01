@@ -1,8 +1,9 @@
-function greet(name){
+const greet = function greet(name){
     return 'Hello ' + name
 }
 
 console.log(greet('John'))
+
 
 function sum(list){
     a = 0
@@ -14,4 +15,3 @@ function sum(list){
 
 let test = [10,20,30]
 console.log(sum(test))
-
