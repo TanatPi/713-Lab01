@@ -5,3 +5,5 @@ const object = {
 }
 
 console.log(object.name)
+const jsonStr = JSON.stringify(object);
+console.log(jsonStr)
