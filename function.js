@@ -12,6 +12,6 @@ function sum(list){
     return a
 }
 
-test = [10,20,30]
+let test = [10,20,30]
 console.log(sum(test))
 
